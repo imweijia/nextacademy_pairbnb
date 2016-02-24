@@ -1,0 +1,40 @@
+@import "application.scss";
+/*----- Menu -----*/
+.menu {
+  width:100%;
+  background:#ff5a5f;
+
+  ul {
+    display:inline-block;
+  }
+
+  li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size: small;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  li:last-child {
+    margin-right:0px;
+  }
+
+  a {
+    color:$primary;
+    transition:color linear 0.15s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration:none;
+    color:#303030;
+  }
+
+  .current-item a {
+    text-decoration:none;
+    color:#303030;
+  }
+
+}
