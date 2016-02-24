@@ -57,4 +57,25 @@ body {
   padding: 20px;
 }
 
- 
+@media screen and (max-width: 480px) {
+    .menu {
+
+    li {
+      font-size: 9px;
+    }
+  }
+
+  #footer {
+    font-size:9px;
+  }
+
+  .hero-header {
+    height: 300px;
+    .main-text {
+      font-size: 50px;
+    }
+    .sub-text {
+      font-size: 20px;
+    }
+  }
+}
