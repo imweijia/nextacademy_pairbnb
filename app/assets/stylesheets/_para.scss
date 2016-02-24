@@ -7,12 +7,15 @@
   color: $primary;
 }
 
-.para-one {
+.para{
   width: 50%;
   float: left;
 }
 
-.para-two {
-  width: 50%;
-  float: left;
+
+@media screen and (max-width: 400px) {
+	.para{
+	  width: 100%;
+	  margin-bottom: 10%;
+	}
 }
