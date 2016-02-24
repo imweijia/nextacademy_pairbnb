@@ -5,7 +5,10 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scal=1.0, maximum-scale=5.0"> 
+  <!-- maximum-scale set the zoom in. if want remove the zoom in effect, set as same as initial-scale -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scal=1.0">
 </head>
 <body>
 
@@ -20,7 +23,7 @@
     <li>Privacy</li>
     <li>Terms</li>
     <li>Contact Us</li>
-    <li>Signup for newsletter</li>
+    <li id="signup">Signup for newsletter</li>
   </ul>
 </div>
 
