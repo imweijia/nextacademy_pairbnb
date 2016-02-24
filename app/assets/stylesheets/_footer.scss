@@ -18,3 +18,14 @@
     }
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  #footer { 
+    ul {
+      #signup {
+        display: none;
+      }
+    }
+  }
+}
